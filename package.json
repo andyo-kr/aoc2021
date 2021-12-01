@@ -1,0 +1,7 @@
+{
+  "name": "aoc2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andy Orahoske <andy.orahoske@kroger.com>",
+  "license": "MIT"
+}
