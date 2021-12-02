@@ -24,7 +24,7 @@ const b = async (input: number[]) => {
 }
 
 const app = async () => {
-  const initialArray = (await promisify(readFile)(resolve(__dirname, './input/input.txt'))).toString().split('\n')
+  const initialArray = (await promisify(readFile)(resolve(__dirname, './input.txt'))).toString().split('\n')
   const input = initialArray.map(s => parseInt(s, 10)).filter(n => !Number.isNaN(n))
 
   console.log('a')
